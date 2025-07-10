@@ -1,0 +1,47 @@
+name: opencartv125
+services:
+  node-chrome:
+    depends_on:
+      selenium-hub:
+        condition: service_started
+        required: true
+    environment:
+      SE_EVENT_BUS_HOST: selenium-hub
+      SE_EVENT_BUS_PUBLISH_PORT: "4442"
+      SE_EVENT_BUS_SUBSCRIBE_PORT: "4443"
+    image: selenium/node-chrome
+    networks:
+      grid: null
+  node-firefox:
+    depends_on:
+      selenium-hub:
+        condition: service_started
+        required: true
+    environment:
+      SE_EVENT_BUS_HOST: selenium-hub
+      SE_EVENT_BUS_PUBLISH_PORT: "4442"
+      SE_EVENT_BUS_SUBSCRIBE_PORT: "4443"
+    image: selenium/node-firefox
+    networks:
+      grid: null
+  selenium-hub:
+    image: selenium/hub
+    networks:
+      grid: null
+    ports:
+      - mode: ingress
+        target: 4442
+        published: "4442"
+        protocol: tcp
+      - mode: ingress
+        target: 4443
+        published: "4443"
+        protocol: tcp
+      - mode: ingress
+        target: 4444
+        published: "4444"
+        protocol: tcp
+networks:
+  grid:
+    name: opencartv125_grid
+    driver: bridge
