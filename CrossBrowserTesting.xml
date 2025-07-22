@@ -14,6 +14,10 @@
   
     <classes>
       <class name="TestCases.TC_001_AccountRegistrationTest"/>
+      <class name="TestCases.TC_002_LoginTest"/> 
+      <class name="testCases.TC_004_SearchProductTest"/>
+      <class name="testCases.TC_005_AddToCartPageTest"/>
+      <class name="testCases.TC_006_EndToEndTest"/>
     </classes>
     
   </test> <!-- Test -->
@@ -26,6 +30,10 @@
   
     <classes>
       <class name="TestCases.TC_001_AccountRegistrationTest"/>
+      <class name="TestCases.TC_002_LoginTest"/> 
+      <class name="testCases.TC_004_SearchProductTest"/>
+      <class name="testCases.TC_005_AddToCartPageTest"/>
+      <class name="testCases.TC_006_EndToEndTest"/>
     </classes>
     
   </test> <!-- Test -->
@@ -38,6 +46,10 @@
   
     <classes>
       <class name="TestCases.TC_001_AccountRegistrationTest"/>
+      <class name="TestCases.TC_002_LoginTest"/> 
+      <class name="testCases.TC_004_SearchProductTest"/>
+      <class name="testCases.TC_005_AddToCartPageTest"/>
+      <class name="testCases.TC_006_EndToEndTest"/>
     </classes>
     
   </test> <!-- Test -->

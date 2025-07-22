@@ -15,6 +15,10 @@
     <classes>
       <class name="TestCases.TC_001_AccountRegistrationTest"/> 
       <class name="TestCases.TC_002_LoginTest"/> 
+      <class name="TestCases.TC_004_SearchProductTest"/>
+      <class name="TestCases.TC_005_AddToCartPageTest"/>
+      <class name="TestCases.TC_006_EndToEndTest"/>
+
       <!-- <class name="TestCases.TC_003_LoginDDT"/>  -->
     </classes>
     
