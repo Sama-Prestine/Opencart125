@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 22 05:12:12 WAT 2025</td>
+<td>Started on:</td><td>Fri Jul 25 02:43:59 WAT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>172 seconds (172032 ms)</td>
+<tr><td>Total time:</td><td>158 seconds (158735 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestCases.TC_006_EndToEndTest.endToendTest()'><b>endToendTest</b><br>Test class: TestCases.TC_006_EndToEndTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;input-payment-firstname&apos;]&quot;}
-  (Session info: chrome=138.0.7204.157)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;list-group&apos;]//a[text()=&apos;Logout&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3bfce9f211e3aa78614c27f77c100ae9, findElement {value=//input[@id=&apos;input-payment-firstname&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.157, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64883/devtoo..., se:cdpVersion: 138.0.7204.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3bfce9f211e3aa78614c27f77c100ae9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [10cc208b-da01-4770-9c9b-529eb37e5433, findElement {value=//div[@class=&apos;list-group&apos;]//a[text()=&apos;Logout&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15012, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 10cc208b-da01-4770-9c9b-529eb37e5433
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -99,20 +98,19 @@ Session ID: 3bfce9f211e3aa78614c27f77c100ae9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
-	at PageObjects.CheckOutPage.setfirstName(CheckOutPage.java:80)
-	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at PageObjects.MyAccountPage.clickLogout(MyAccountPage.java:30)
+	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:48)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1228589267", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1228589267'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;input-payment-firstname&apos;]&quot;}
-  (Session info: chrome=138.0.7204.157)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace430329518", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace430329518'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;list-group&apos;]//a[text()=&apos;Logout&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3bfce9f211e3aa78614c27f77c100ae9, findElement {value=//input[@id=&apos;input-payment-firstname&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.157, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64883/devtoo..., se:cdpVersion: 138.0.7204.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3bfce9f211e3aa78614c27f77c100ae9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [10cc208b-da01-4770-9c9b-529eb37e5433, findElement {value=//div[@class=&apos;list-group&apos;]//a[text()=&apos;Logout&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15012, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 10cc208b-da01-4770-9c9b-529eb37e5433
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -129,9 +127,9 @@ Session ID: 3bfce9f211e3aa78614c27f77c100ae9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
-	at PageObjects.CheckOutPage.setfirstName(CheckOutPage.java:80)
-	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at PageObjects.MyAccountPage.clickLogout(MyAccountPage.java:30)
+	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:48)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -159,7 +157,7 @@ Session ID: 3bfce9f211e3aa78614c27f77c100ae9
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>62</td>
+<td>24</td>
 <td>TestCases.TC_006_EndToEndTest@2d6764b2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -171,25 +169,25 @@ Session ID: 3bfce9f211e3aa78614c27f77c100ae9
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestCases.TC_005_AddToCartPageTest.verify_addToCart()'><b>verify_addToCart</b><br>Test class: TestCases.TC_005_AddToCartPageTest</td>
-<td></td>
-<td>7</td>
-<td>TestCases.TC_005_AddToCartPageTest@35f26e72</td></tr>
-<tr>
-<td title='TestCases.TC_001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: TestCases.TC_001_AccountRegistrationTest</td>
-<td></td>
-<td>14</td>
-<td>TestCases.TC_001_AccountRegistrationTest@eda25e5</td></tr>
-<tr>
 <td title='TestCases.TC_002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: TestCases.TC_002_LoginTest</td>
 <td></td>
-<td>7</td>
+<td>2</td>
 <td>TestCases.TC_002_LoginTest@3d2ee678</td></tr>
 <tr>
 <td title='TestCases.TC_004_SearchProductTest.verify_pruductSearch()'><b>verify_pruductSearch</b><br>Test class: TestCases.TC_004_SearchProductTest</td>
 <td></td>
 <td>1</td>
 <td>TestCases.TC_004_SearchProductTest@6179e425</td></tr>
+<tr>
+<td title='TestCases.TC_001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: TestCases.TC_001_AccountRegistrationTest</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TC_001_AccountRegistrationTest@eda25e5</td></tr>
+<tr>
+<td title='TestCases.TC_005_AddToCartPageTest.verify_addToCart()'><b>verify_addToCart</b><br>Test class: TestCases.TC_005_AddToCartPageTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TC_005_AddToCartPageTest@35f26e72</td></tr>
 </table><p>
 </body>
 </html>

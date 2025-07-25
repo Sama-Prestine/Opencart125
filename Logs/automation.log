@@ -1,52 +1,171 @@
-2025-07-22 03:39:33 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml"
-2025-07-22 03:40:05 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
-2025-07-22 03:40:05 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
-2025-07-22 03:40:07 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
-2025-07-22 03:40:07 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
-2025-07-22 03:40:10 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
-2025-07-22 03:40:10 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
-2025-07-22 03:40:13 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
-2025-07-22 03:40:18 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
-2025-07-22 03:40:18 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
-2025-07-22 03:40:19 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
-2025-07-22 03:40:19 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
-2025-07-22 03:40:19 INFO  TC_002_LoginTest:29 - Entering valid email and password..
-2025-07-22 03:40:21 INFO  TC_002_LoginTest:33 - clicked on ligin button..
-2025-07-22 03:40:21 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
-2025-07-22 03:47:44 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml"
-2025-07-22 03:47:49 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
-2025-07-22 03:47:49 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
-2025-07-22 03:47:50 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
-2025-07-22 03:47:50 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
-2025-07-22 03:47:54 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
-2025-07-22 03:47:57 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
-2025-07-22 03:47:57 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
-2025-07-22 03:48:03 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
-2025-07-22 03:48:03 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
-2025-07-22 03:48:03 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
-2025-07-22 03:48:03 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
-2025-07-22 03:48:03 INFO  TC_002_LoginTest:29 - Entering valid email and password..
-2025-07-22 03:48:04 INFO  TC_002_LoginTest:33 - clicked on ligin button..
-2025-07-22 03:48:05 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
-2025-07-22 05:12:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml"
-2025-07-22 05:12:12 INFO  Utils:112 - [TestNG] Running:
+2025-07-25 01:45:19 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:10:44 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:27:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:28:33 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:29:49 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:31:10 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml"
+2025-07-25 02:31:10 INFO  Utils:112 - [TestNG] Running:
   C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml
 
-2025-07-22 05:13:00 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
-2025-07-22 05:13:00 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
-2025-07-22 05:13:09 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
-2025-07-22 05:13:09 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
-2025-07-22 05:13:12 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
-2025-07-22 05:13:13 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
-2025-07-22 05:13:15 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
-2025-07-22 05:13:32 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
-2025-07-22 05:13:32 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
-2025-07-22 05:13:32 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
-2025-07-22 05:13:38 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
-2025-07-22 05:13:38 INFO  TC_002_LoginTest:29 - Entering valid email and password..
-2025-07-22 05:13:38 INFO  TC_002_LoginTest:33 - clicked on ligin button..
-2025-07-22 05:13:40 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
-2025-07-22 05:13:45 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
-2025-07-22 05:13:46 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
-2025-07-22 05:13:49 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
-2025-07-22 05:13:56 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:31:17 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:31:17 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:31:19 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:31:19 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:31:22 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
+2025-07-25 02:31:22 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
+2025-07-25 02:31:24 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
+2025-07-25 02:31:28 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:31:28 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:31:28 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:31:29 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:31:29 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:31:29 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2025-07-25 02:31:30 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2025-07-25 02:31:34 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:31:35 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:31:38 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:31:41 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:35:03 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\testng.xml"
+2025-07-25 02:35:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\testng.xml
+
+2025-07-25 02:36:34 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml"
+2025-07-25 02:36:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml
+
+2025-07-25 02:36:38 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:36:38 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:36:39 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:36:39 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:36:42 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
+2025-07-25 02:40:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:41:53 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml"
+2025-07-25 02:41:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml
+
+2025-07-25 02:41:58 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:41:58 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:41:59 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:41:59 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:42:02 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
+2025-07-25 02:42:04 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
+2025-07-25 02:42:04 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
+2025-07-25 02:42:08 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:42:08 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:42:08 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:42:09 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:42:09 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:42:09 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2025-07-25 02:42:10 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2025-07-25 02:42:15 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:42:16 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:42:20 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:43:58 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml"
+2025-07-25 02:43:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\Master.xml
+
+2025-07-25 02:45:33 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:45:33 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:45:35 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:45:35 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:45:38 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
+2025-07-25 02:45:39 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
+2025-07-25 02:45:39 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
+2025-07-25 02:45:45 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:45:45 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:45:45 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:45:46 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:45:46 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:45:47 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2025-07-25 02:45:47 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2025-07-25 02:45:56 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:45:57 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:46:03 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:46:05 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:47:17 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:47:18 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml
+
+2025-07-25 02:47:21 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:47:21 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:47:22 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:47:22 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:47:26 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
+2025-07-25 02:47:27 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
+2025-07-25 02:47:27 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
+2025-07-25 02:47:30 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:47:30 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:47:30 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:47:31 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:47:31 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:47:31 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2025-07-25 02:47:32 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2025-07-25 02:47:36 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:47:37 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:47:41 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:47:44 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:48:30 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:48:30 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:48:31 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:48:31 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:48:34 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
+2025-07-25 02:48:35 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
+2025-07-25 02:48:35 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
+2025-07-25 02:48:40 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:48:40 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:48:40 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:48:41 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:48:41 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:48:42 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2025-07-25 02:48:42 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2025-07-25 02:48:49 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:49:15 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:49:18 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:50:04 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:50:04 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:50:06 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:50:06 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:50:09 INFO  TC_001_AccountRegistrationTest:42 - ***** Clicking on the Continue button to complete Customer Registration... *****
+2025-07-25 02:50:11 INFO  TC_001_AccountRegistrationTest:46 - ***** Validating expected Message... *****
+2025-07-25 02:50:11 INFO  TC_001_AccountRegistrationTest:67 - Done with the Execution of TC_001_AccountRegistrationTest...
+2025-07-25 02:50:15 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:50:15 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:50:15 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:50:16 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:50:16 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:50:16 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2025-07-25 02:50:17 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2025-07-25 02:50:23 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:50:25 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2025-07-25 02:50:29 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:57:01 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml"
+2025-07-25 02:57:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\USER\My-Eclipse\My-Eclipse\OpencartV125\CrossBrowserTesting.xml
+
+2025-07-25 02:57:07 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:57:07 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:57:07 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC_001_AccountRegistrationTest *****
+2025-07-25 02:57:07 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:57:07 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:57:07 INFO  TC_001_AccountRegistrationTest:21 - ***** Clicking on my Account Link *****
+2025-07-25 02:57:08 INFO  TC_001_AccountRegistrationTest:24 - ***** Clicking on the Register Link *****
+2025-07-25 02:57:08 INFO  TC_001_AccountRegistrationTest:28 - ***** Providing Customers details *****
+2025-07-25 02:57:16 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:57:16 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:57:16 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:57:16 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:57:16 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2025-07-25 02:57:16 DEBUG TC_002_LoginTest:17 - capturing application debug logs....
+2025-07-25 02:57:16 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:57:16 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:57:17 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2025-07-25 02:57:17 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:57:17 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:57:18 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2025-07-25 02:57:18 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2025-07-25 02:57:41 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:57:41 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:57:41 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-07-25 02:58:12 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:58:12 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-07-25 02:58:12 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 

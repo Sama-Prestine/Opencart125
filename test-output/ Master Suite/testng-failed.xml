@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="OS" value="Windows"/>
-    <parameter name="Browser" value="Chrome"/>
+    <parameter name="Browser" value="firefox"/>
     <classes>
       <class name="TestCases.TC_006_EndToEndTest">
         <methods>
