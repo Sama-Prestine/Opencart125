@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 25 02:57:01 WAT 2025</td>
+<td>Started on:</td><td>Sat Jul 26 16:55:30 WAT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>92 seconds (92437 ms)</td>
+<tr><td>Total time:</td><td>87 seconds (87404 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,83 +76,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestCases.TC_006_EndToEndTest.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC_006_EndToEndTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0550e72f-c69f-4c95-98e7-30beaf5d0683, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26256, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
-	at TestBase.BaseClass.tearDown(BaseClass.java:110)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2023528668", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2023528668'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0550e72f-c69f-4c95-98e7-30beaf5d0683, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26256, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
-	at TestBase.BaseClass.tearDown(BaseClass.java:110)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-</pre></div></td>
-<td>0</td>
-<td>TestCases.TC_006_EndToEndTest@305a0c5f</td></tr>
-<tr>
 <td title='TestCases.TC_001_AccountRegistrationTest.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC_001_AccountRegistrationTest</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8c980f88-c178-4e78-8323-361be141d61c, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22904, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8c980f88-c178-4e78-8323-361be141d61c
+Command: [183c3fe1-c9b7-4180-ab60-1f11f63850e2, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 35372, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 183c3fe1-c9b7-4180-ab60-1f11f63850e2
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -169,14 +100,14 @@ Session ID: 8c980f88-c178-4e78-8323-361be141d61c
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace246686118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace246686118'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace170519369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace170519369'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8c980f88-c178-4e78-8323-361be141d61c, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22904, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8c980f88-c178-4e78-8323-361be141d61c
+Command: [183c3fe1-c9b7-4180-ab60-1f11f63850e2, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 35372, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 183c3fe1-c9b7-4180-ab60-1f11f63850e2
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -212,16 +143,85 @@ Session ID: 8c980f88-c178-4e78-8323-361be141d61c
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
 <td>0</td>
-<td>TestCases.TC_001_AccountRegistrationTest@10b9db7b</td></tr>
+<td>TestCases.TC_001_AccountRegistrationTest@10ded6a9</td></tr>
 <tr>
 <td title='TestCases.TC_004_SearchProductTest.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC_004_SearchProductTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc4baf005baeae12871d57bd434f66f, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52934/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc4baf005baeae12871d57bd434f66f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
+	at TestBase.BaseClass.tearDown(BaseClass.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1467167608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1467167608'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc4baf005baeae12871d57bd434f66f, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52934/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc4baf005baeae12871d57bd434f66f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
+	at TestBase.BaseClass.tearDown(BaseClass.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.TC_004_SearchProductTest@4a194c39</td></tr>
+<tr>
+<td title='TestCases.TC_005_AddToCartPageTest.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC_005_AddToCartPageTest</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c919e77f-14ea-4990-a446-6770843eee56, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26528, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: c919e77f-14ea-4990-a446-6770843eee56
+Command: [da9837e7-4828-4e62-b78d-c3d2639c2551, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24132, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: da9837e7-4828-4e62-b78d-c3d2639c2551
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -238,14 +238,14 @@ Session ID: c919e77f-14ea-4990-a446-6770843eee56
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace463067067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace463067067'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1913483441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1913483441'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c919e77f-14ea-4990-a446-6770843eee56, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26528, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: c919e77f-14ea-4990-a446-6770843eee56
+Command: [da9837e7-4828-4e62-b78d-c3d2639c2551, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24132, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: da9837e7-4828-4e62-b78d-c3d2639c2551
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -281,16 +281,16 @@ Session ID: c919e77f-14ea-4990-a446-6770843eee56
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
 <td>0</td>
-<td>TestCases.TC_004_SearchProductTest@34cdeda2</td></tr>
+<td>TestCases.TC_005_AddToCartPageTest@52066604</td></tr>
 <tr>
-<td title='TestCases.TC_005_AddToCartPageTest.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC_005_AddToCartPageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+<td title='TestCases.TC_002_LoginTest.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC_002_LoginTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [56b418d13f318c7e517a0e589788c2b5, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54751}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54751/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56b418d13f318c7e517a0e589788c2b5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dfab84b2-23bb-4070-a1e7-7b9ff9ea26ce, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33620, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dfab84b2-23bb-4070-a1e7-7b9ff9ea26ce
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -307,14 +307,14 @@ Session ID: 56b418d13f318c7e517a0e589788c2b5
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1553730836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1553730836'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2112430374", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2112430374'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [56b418d13f318c7e517a0e589788c2b5, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54751}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54751/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56b418d13f318c7e517a0e589788c2b5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dfab84b2-23bb-4070-a1e7-7b9ff9ea26ce, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33620, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dfab84b2-23bb-4070-a1e7-7b9ff9ea26ce
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -350,7 +350,7 @@ Session ID: 56b418d13f318c7e517a0e589788c2b5
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
 <td>0</td>
-<td>TestCases.TC_005_AddToCartPageTest@6ee660fb</td></tr>
+<td>TestCases.TC_002_LoginTest@c5dc4a2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -369,8 +369,8 @@ Session ID: 56b418d13f318c7e517a0e589788c2b5
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1016091681", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1016091681'><pre>java.lang.AssertionError: null
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208276610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208276610'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
 	at TestCases.TC_004_SearchProductTest.verify_pruductSearch(TC_004_SearchProductTest.java:31)
@@ -395,17 +395,18 @@ Session ID: 56b418d13f318c7e517a0e589788c2b5
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>13</td>
-<td>TestCases.TC_004_SearchProductTest@34cdeda2</td></tr>
+<td>14</td>
+<td>TestCases.TC_004_SearchProductTest@4a194c39</td></tr>
 <tr>
 <td title='TestCases.TC_006_EndToEndTest.endToendTest()'><b>endToendTest</b><br>Test class: TestCases.TC_006_EndToEndTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;a href=&quot;https://tutorialsninja.com/demo/index.php?route=account/register&quot;&gt; could not be scrolled into view
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0550e72f-c69f-4c95-98e7-30beaf5d0683, findElement {value=//input[@id=&apos;input-lastname&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26256, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
+Command: [75ddd64d-5447-44c9-8a99-d61c40b07a1a, clickElement {id=a64b2be0-8bf4-48d3-9a42-3de3c14603e9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30896, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (75ddd64d-5447-44c9-8a99-d61c40b07a1a)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]
+Session ID: 75ddd64d-5447-44c9-8a99-d61c40b07a1a
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -413,28 +414,26 @@ Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
-	at PageObjects.AccountRegistrationPage.setLastName(AccountRegistrationPage.java:49)
-	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at PageObjects.HomePage.clickRegister(HomePage.java:39)
+	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1984596264", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1984596264'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace749061564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace749061564'><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;a href=&quot;https://tutorialsninja.com/demo/index.php?route=account/register&quot;&gt; could not be scrolled into view
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0550e72f-c69f-4c95-98e7-30beaf5d0683, findElement {value=//input[@id=&apos;input-lastname&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26256, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
+Command: [75ddd64d-5447-44c9-8a99-d61c40b07a1a, clickElement {id=a64b2be0-8bf4-48d3-9a42-3de3c14603e9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30896, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (75ddd64d-5447-44c9-8a99-d61c40b07a1a)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]
+Session ID: 75ddd64d-5447-44c9-8a99-d61c40b07a1a
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -445,15 +444,14 @@ Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
-	at PageObjects.AccountRegistrationPage.setLastName(AccountRegistrationPage.java:49)
-	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at PageObjects.HomePage.clickRegister(HomePage.java:39)
+	at TestCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:26)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -475,8 +473,8 @@ Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>2</td>
-<td>TestCases.TC_006_EndToEndTest@305a0c5f</td></tr>
+<td>0</td>
+<td>TestCases.TC_006_EndToEndTest@340b9973</td></tr>
 <tr>
 <td title='TestCases.TC_001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: TestCases.TC_001_AccountRegistrationTest</td>
 <td><div><pre>java.lang.AssertionError: null
@@ -486,8 +484,8 @@ Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace810755046", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace810755046'><pre>java.lang.AssertionError: null
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace662995177", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace662995177'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
 	at TestCases.TC_001_AccountRegistrationTest.verify_account_registration(TC_001_AccountRegistrationTest.java:64)
@@ -512,45 +510,8 @@ Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>1</td>
-<td>TestCases.TC_001_AccountRegistrationTest@10b9db7b</td></tr>
-<tr>
-<td title='TestCases.TC_002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: TestCases.TC_002_LoginTest</td>
-<td><div><pre>java.lang.AssertionError: null
-	at TestCases.TC_002_LoginTest.verify_login(TC_002_LoginTest.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1392580024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1392580024'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at TestCases.TC_002_LoginTest.verify_login(TC_002_LoginTest.java:44)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-</pre></div></td>
-<td>1</td>
-<td>TestCases.TC_002_LoginTest@9ef8eb7</td></tr>
+<td>0</td>
+<td>TestCases.TC_001_AccountRegistrationTest@10ded6a9</td></tr>
 <tr>
 <td title='TestCases.TC_005_AddToCartPageTest.verify_addToCart()'><b>verify_addToCart</b><br>Test class: TestCases.TC_005_AddToCartPageTest</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
@@ -560,8 +521,8 @@ Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2142091618", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2142091618'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1791944816", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1791944816'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -591,8 +552,45 @@ Session ID: 0550e72f-c69f-4c95-98e7-30beaf5d0683
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>10</td>
-<td>TestCases.TC_005_AddToCartPageTest@6ee660fb</td></tr>
+<td>21</td>
+<td>TestCases.TC_005_AddToCartPageTest@52066604</td></tr>
+<tr>
+<td title='TestCases.TC_002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: TestCases.TC_002_LoginTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at TestCases.TC_002_LoginTest.verify_login(TC_002_LoginTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace666285769", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace666285769'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at TestCases.TC_002_LoginTest.verify_login(TC_002_LoginTest.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>14</td>
+<td>TestCases.TC_002_LoginTest@c5dc4a2</td></tr>
 </table><p>
 </body>
 </html>
